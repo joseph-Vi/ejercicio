@@ -1,0 +1,25 @@
+# incluye < stdio.h >
+# incluye < conio.h >
+
+/ * Alumno: Guillermo Z. Arguello Cordobe
+Ejercicio 5 * /
+
+vacío  principal ()
+{
+  clrscr ();
+  char palabra [ 100 ];
+  int i = 0 ;
+  printf ( " Ingrese una palabra: " );
+  obtiene (palabra);
+
+  while (palabra [i]! = ' \ 0 ' )
+  {
+    if (palabra [i]> = ' a ' && palabra [i] <= ' z ' )
+    {
+     palabra [i] = palabra [i] - ' a ' + ' A ' ;
+     }
+     x ++;
+    }
+    printf ( " En mayúsculas:% s \ n " , palabra);
+    getch ();
+}
